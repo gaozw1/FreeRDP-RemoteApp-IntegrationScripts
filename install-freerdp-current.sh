@@ -1,8 +1,9 @@
 #!/bin/bash
 
 #install compilation prerequisites
-sudo apt-get install build-essential git cmake libssl-dev libx11-dev libxext-dev libxinerama-dev libxcursor-dev libxdamage-dev libxv-dev libxkbfile-dev libasound2-dev libcups2-dev
-sudo apt-get install libcunit1-dev libdirectfb-dev xmlto doxygen
+sudo apt-get install build-essential git cmake libssl-dev libx11-dev libxext-dev libxinerama-dev libxcursor-dev libxdamage-dev libxv-dev libxkbfile-dev libasound2-dev libcups2-dev -y
+sudo apt-get install libcunit1-dev libdirectfb-dev xmlto doxygen -y
+sudo apt install libusb-1.0.0-dev -y
 
 #don't forget where you came from
 OLD_CWD=`pwd`
